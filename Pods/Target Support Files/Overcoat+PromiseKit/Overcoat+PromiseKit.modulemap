@@ -1,0 +1,6 @@
+framework module OvercoatPromiseKit {
+  umbrella header "Overcoat+PromiseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

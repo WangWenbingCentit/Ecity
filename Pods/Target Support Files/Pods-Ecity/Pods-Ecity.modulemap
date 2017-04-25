@@ -1,0 +1,6 @@
+framework module Pods_Ecity {
+  umbrella header "Pods-Ecity-umbrella.h"
+
+  export *
+  module * { export * }
+}

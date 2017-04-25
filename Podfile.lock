@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ISO8601DateFormatter (0.8)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - MarqueeLabel (2.8.0):
+    - MarqueeLabel/ObjC (= 2.8.0)
+  - MarqueeLabel/ObjC (2.8.0)
+  - Overcoat (4.0.0-beta.2):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - AFNetworking/Serialization (~> 3.0)
+    - Mantle (~> 2.0)
+  - Overcoat+PromiseKit (4.0.0-beta.2):
+    - Overcoat (~> 4.0.0-beta.2)
+    - PromiseKit/CorePromise (> 2)
+  - PromiseKit/CorePromise (4.1.7)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - ISO8601DateFormatter
+  - Mantle (~> 2.0)
+  - MarqueeLabel (~> 2.5)
+  - Overcoat (~> 4.0.0-beta.2)
+  - Overcoat+PromiseKit (~> 4.0.0-beta.2)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  MarqueeLabel: 73b52d7558241ece6391e9c566edb56b269883e2
+  Overcoat: 2ddaa6d66edebc375f3e24a37974631d5aff7ebe
+  Overcoat+PromiseKit: 9f989a3d9bc8b07f576673be9bd85a3207399fbf
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 95a3e67a7e49cd87afbeefefaaf5b02562179153
+
+COCOAPODS: 1.2.0.beta.3

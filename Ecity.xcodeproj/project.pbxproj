@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313DFD4A75BD6CBC157437C3 /* Pods_Ecity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D81D6C75E68FEA7B16AB68C /* Pods_Ecity.framework */; };
+		B2F535721EAEF08900FD3428 /* UIMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535711EAEF08900FD3428 /* UIMainViewController.swift */; };
+		B2F535741EAEF13100FD3428 /* UIProjectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535731EAEF13100FD3428 /* UIProjectListViewController.swift */; };
+		B2F535761EAEF17000FD3428 /* UIWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535751EAEF17000FD3428 /* UIWorkViewController.swift */; };
+		B2F535781EAEF18200FD3428 /* UIContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535771EAEF18200FD3428 /* UIContactViewController.swift */; };
+		B2F5357A1EAEF19100FD3428 /* UIMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535791EAEF19100FD3428 /* UIMineViewController.swift */; };
+		B2F535821EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */; };
+		B2F535851EAF15E200FD3428 /* FirstRunManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535841EAF15E200FD3428 /* FirstRunManager.swift */; };
+		B2F535961EAF2E4E00FD3428 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535951EAF2E4E00FD3428 /* Project.swift */; };
+		B2F535A11EAF40B500FD3428 /* BaseNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F535A01EAF40B500FD3428 /* BaseNetWorkManager.m */; };
+		B2F535A61EAF46DA00FD3428 /* SubNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F535A51EAF46DA00FD3428 /* SubNetWorkManager.m */; };
 		B2FBD5E21EAEEE610048E683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBD5E11EAEEE610048E683 /* AppDelegate.swift */; };
-		B2FBD5E41EAEEE610048E683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBD5E31EAEEE610048E683 /* ViewController.swift */; };
 		B2FBD5E71EAEEE610048E683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBD5E51EAEEE610048E683 /* Main.storyboard */; };
 		B2FBD5E91EAEEE610048E683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FBD5E81EAEEE610048E683 /* Assets.xcassets */; };
 		B2FBD5EC1EAEEE610048E683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBD5EA1EAEEE610048E683 /* LaunchScreen.storyboard */; };
@@ -34,9 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D81D6C75E68FEA7B16AB68C /* Pods_Ecity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38E4905E4F248C7BB0BF05C /* Pods-Ecity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ecity/Pods-Ecity.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0CD039D16F58B176F046A3 /* Pods-Ecity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ecity/Pods-Ecity.release.xcconfig"; sourceTree = "<group>"; };
+		B2F535711EAEF08900FD3428 /* UIMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMainViewController.swift; sourceTree = "<group>"; };
+		B2F535731EAEF13100FD3428 /* UIProjectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProjectListViewController.swift; sourceTree = "<group>"; };
+		B2F535751EAEF17000FD3428 /* UIWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWorkViewController.swift; sourceTree = "<group>"; };
+		B2F535771EAEF18200FD3428 /* UIContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIContactViewController.swift; sourceTree = "<group>"; };
+		B2F535791EAEF19100FD3428 /* UIMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMineViewController.swift; sourceTree = "<group>"; };
+		B2F5357F1EAEF90100FD3428 /* Ecity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ecity-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2F535801EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+EcityDefaults.h"; sourceTree = "<group>"; };
+		B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+EcityDefaults.m"; sourceTree = "<group>"; };
+		B2F535841EAF15E200FD3428 /* FirstRunManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRunManager.swift; sourceTree = "<group>"; };
+		B2F5358F1EAF2A6B00FD3428 /* Ecity-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ecity-PrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
+		B2F535951EAF2E4E00FD3428 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B2F5359F1EAF40B500FD3428 /* BaseNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkManager.h; sourceTree = "<group>"; };
+		B2F535A01EAF40B500FD3428 /* BaseNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetWorkManager.m; sourceTree = "<group>"; };
+		B2F535A31EAF455600FD3428 /* Ecity-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ecity-Protocol.h"; sourceTree = "<group>"; };
+		B2F535A41EAF46DA00FD3428 /* SubNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubNetWorkManager.h; sourceTree = "<group>"; };
+		B2F535A51EAF46DA00FD3428 /* SubNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubNetWorkManager.m; sourceTree = "<group>"; };
 		B2FBD5DE1EAEEE610048E683 /* Ecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FBD5E11EAEEE610048E683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2FBD5E31EAEEE610048E683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2FBD5E61EAEEE610048E683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2FBD5E81EAEEE610048E683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FBD5EB1EAEEE610048E683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313DFD4A75BD6CBC157437C3 /* Pods_Ecity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		689F64A9BB259AF4277A0B02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D81D6C75E68FEA7B16AB68C /* Pods_Ecity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A494A09AE36B9E322F80907C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38E4905E4F248C7BB0BF05C /* Pods-Ecity.debug.xcconfig */,
+				AA0CD039D16F58B176F046A3 /* Pods-Ecity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2F5357B1EAEF87900FD3428 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B2F535801EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.h */,
+				B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */,
+				B2F5357F1EAEF90100FD3428 /* Ecity-Bridging-Header.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B2F535831EAF15C500FD3428 /* FirstRunManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2F535841EAF15E200FD3428 /* FirstRunManager.swift */,
+			);
+			path = FirstRunManager;
+			sourceTree = "<group>";
+		};
+		B2F535861EAF21EA00FD3428 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2F535951EAF2E4E00FD3428 /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2F535871EAF21F600FD3428 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2F535881EAF221300FD3428 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2F535981EAF356A00FD3428 /* NetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2F5359F1EAF40B500FD3428 /* BaseNetWorkManager.h */,
+				B2F535A01EAF40B500FD3428 /* BaseNetWorkManager.m */,
+				B2F535A41EAF46DA00FD3428 /* SubNetWorkManager.h */,
+				B2F535A51EAF46DA00FD3428 /* SubNetWorkManager.m */,
+			);
+			path = NetWorkManager;
+			sourceTree = "<group>";
+		};
+		B2F535A21EAF453600FD3428 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B2F535A31EAF455600FD3428 /* Ecity-Protocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		B2FBD5D51EAEEE610048E683 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,8 @@
 				B2FBD5F51EAEEE610048E683 /* EcityTests */,
 				B2FBD6001EAEEE610048E683 /* EcityUITests */,
 				B2FBD5DF1EAEEE610048E683 /* Products */,
+				A494A09AE36B9E322F80907C /* Pods */,
+				689F64A9BB259AF4277A0B02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +204,21 @@
 		B2FBD5E01EAEEE610048E683 /* Ecity */ = {
 			isa = PBXGroup;
 			children = (
+				B2F535A21EAF453600FD3428 /* Protocol */,
+				B2F535981EAF356A00FD3428 /* NetWorkManager */,
+				B2F535881EAF221300FD3428 /* View */,
+				B2F535871EAF21F600FD3428 /* ViewModel */,
+				B2F535861EAF21EA00FD3428 /* Model */,
+				B2F535831EAF15C500FD3428 /* FirstRunManager */,
+				B2F5357B1EAEF87900FD3428 /* Category */,
 				B2FBD5E11EAEEE610048E683 /* AppDelegate.swift */,
-				B2FBD5E31EAEEE610048E683 /* ViewController.swift */,
+				B2F535711EAEF08900FD3428 /* UIMainViewController.swift */,
+				B2F535731EAEF13100FD3428 /* UIProjectListViewController.swift */,
+				B2F535751EAEF17000FD3428 /* UIWorkViewController.swift */,
+				B2F535771EAEF18200FD3428 /* UIContactViewController.swift */,
+				B2F535791EAEF19100FD3428 /* UIMineViewController.swift */,
 				B2FBD5E51EAEEE610048E683 /* Main.storyboard */,
+				B2F5358F1EAF2A6B00FD3428 /* Ecity-PrefixHeader.pch */,
 				B2FBD5E81EAEEE610048E683 /* Assets.xcassets */,
 				B2FBD5EA1EAEEE610048E683 /* LaunchScreen.storyboard */,
 				B2FBD5ED1EAEEE610048E683 /* Info.plist */,
@@ -132,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FBD6061EAEEE610048E683 /* Build configuration list for PBXNativeTarget "Ecity" */;
 			buildPhases = (
+				B8A45713001027167CC2CC87 /* [CP] Check Pods Manifest.lock */,
 				B2FBD5DA1EAEEE610048E683 /* Sources */,
 				B2FBD5DB1EAEEE610048E683 /* Frameworks */,
 				B2FBD5DC1EAEEE610048E683 /* Resources */,
+				5C7A0FCD60B3E3B11CD172CF /* [CP] Embed Pods Frameworks */,
+				E5FD1396C82D94C98C316AF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +315,7 @@
 				TargetAttributes = {
 					B2FBD5DD1EAEEE610048E683 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					B2FBD5F11EAEEE610048E683 = {
@@ -254,13 +377,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C7A0FCD60B3E3B11CD172CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecity/Pods-Ecity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A45713001027167CC2CC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FD1396C82D94C98C316AF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecity/Pods-Ecity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2FBD5DA1EAEEE610048E683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FBD5E41EAEEE610048E683 /* ViewController.swift in Sources */,
+				B2F535851EAF15E200FD3428 /* FirstRunManager.swift in Sources */,
+				B2F535A11EAF40B500FD3428 /* BaseNetWorkManager.m in Sources */,
+				B2F535721EAEF08900FD3428 /* UIMainViewController.swift in Sources */,
+				B2F535761EAEF17000FD3428 /* UIWorkViewController.swift in Sources */,
+				B2F535741EAEF13100FD3428 /* UIProjectListViewController.swift in Sources */,
+				B2F535821EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m in Sources */,
 				B2FBD5E21EAEEE610048E683 /* AppDelegate.swift in Sources */,
+				B2F535781EAEF18200FD3428 /* UIContactViewController.swift in Sources */,
+				B2F535A61EAF46DA00FD3428 /* SubNetWorkManager.m in Sources */,
+				B2F5357A1EAEF19100FD3428 /* UIMineViewController.swift in Sources */,
+				B2F535961EAF2E4E00FD3428 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +497,7 @@
 /* Begin XCBuildConfiguration section */
 		B2FBD6041EAEEE610048E683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38E4905E4F248C7BB0BF05C /* Pods-Ecity.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -356,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -368,6 +549,7 @@
 		};
 		B2FBD6051EAEEE610048E683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0CD039D16F58B176F046A3 /* Pods-Ecity.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -401,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -412,24 +594,35 @@
 		};
 		B2FBD6071EAEEE610048E683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38E4905E4F248C7BB0BF05C /* Pods-Ecity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Ecity-PrefixHeader.pch";
 				INFOPLIST_FILE = Ecity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Centit.Ecity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecity/Category/Ecity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		B2FBD6081EAEEE610048E683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0CD039D16F58B176F046A3 /* Pods-Ecity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Ecity-PrefixHeader.pch";
 				INFOPLIST_FILE = Ecity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Centit.Ecity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecity/Category/Ecity-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +700,7 @@
 				B2FBD6081EAEEE610048E683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FBD6091EAEEE610048E683 /* Build configuration list for PBXNativeTarget "EcityTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +709,7 @@
 				B2FBD60B1EAEEE610048E683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FBD60C1EAEEE610048E683 /* Build configuration list for PBXNativeTarget "EcityUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +718,7 @@
 				B2FBD60E1EAEEE610048E683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

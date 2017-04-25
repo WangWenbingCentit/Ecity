@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let defaults = UserDefaults.standard
+        defaults.ecity_regeisterDefaults();
+    
+        let sub : SubNetWorkManager = SubNetWorkManager.sharedInstanceSession() as! SubNetWorkManager;
+        
+        sub.projectList().asPromise().then { (response) -> AnyPromise in
+        
+        
+        }.catch { (error) in
+            
+        }
+       
+    
         return true
     }
 
