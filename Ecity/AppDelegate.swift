@@ -12,22 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var rootViewController: UIRootViewController!
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let defaults = UserDefaults.standard
-        defaults.ecity_regeisterDefaults();
-    
-        let sub : SubNetWorkManager = SubNetWorkManager.sharedInstanceSession() as! SubNetWorkManager;
+        defaults.ecity_regeisterDefaults()
+        rootViewController = UIStoryboard.init(name:"Main", bundle: nil).instantiateInitialViewController() as! UIRootViewController
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
         
-        sub.projectList().asPromise().then { (response) -> AnyPromise in
-        
-        
-        }.catch { (error) in
-            
-        }
-       
+//        if FirstRunManager.sharedInstance.firstRun == true {
+//            
+//            
+//        } else {
+           presentInterface()
+//        }
+        window?.makeKeyAndVisible()
+//    
+//        let sub : SubNetWorkManager = SubNetWorkManager.sharedInstanceSession() as! SubNetWorkManager;
+//        
+//        sub.projectList().asPromise().then { (response) -> AnyPromise in
+//        
+//        }.catch { (error) in
+//            
+//        }
     
         return true
     }
@@ -54,6 +64,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+// 无参数， 可以省略_ ， 无返回值可以省略Void
+    public func presentInterface() {
+        window?.rootViewController = rootViewController
+    }
+    func presentFirstRun() -> Void {
+        
+        FirstRunManager.sharedInstance.firstRun = true
+        
+    }
 }
 

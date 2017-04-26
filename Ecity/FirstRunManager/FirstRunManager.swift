@@ -19,22 +19,49 @@ import Foundation
 private let firstRunManager = FirstRunManager()
 // final 不希望这个类被继承或者重写
 final class FirstRunManager: NSObject {
-    var firstRun : Bool! {
-        willSet {
-            
-        }
-        
-        didSet {
-
-        }
+    
+    public var firstRun : Bool! {
+   
+    // set --> get
+    set(isFirstRun){
+        UserDefaults.standard.set(isFirstRun, forKey: kEcityCompletedFirstRun)
+    }
+    get {
+        return UserDefaults.standard.bool(forKey: kEcityCompletedFirstRun)
     }
     
+        // set  get
+//        willSet {
+//
+            //UserDefaults.standard.set(firstRun, forKey: kEcityCompletedFirstRun)
+//        }
+//        
+//        didSet {
+//
+//           UserDefaults.standard.bool(forKey: kEcityCompletedFirstRun)
+//        }
+    }
+    // 静态 变量，在内存中只生成一次
     static var sharedInstance : FirstRunManager
     {
         return firstRunManager
     }
+    
     fileprivate override init() {
     }
 
-    
+    public func finish(_ parent : UIViewController) -> Void {
+        
+        parent.dismiss(animated: true) {
+           
+            if self.firstRun == true
+            {
+                let delegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+                delegate.presentInterface()
+            }
+           
+            self.firstRun = false
+        }
+        
+    }
 }

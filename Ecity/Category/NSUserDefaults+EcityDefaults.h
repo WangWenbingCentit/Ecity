@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXTERN NSString *kEcityIsFirstRun;
+FOUNDATION_EXTERN NSString *kEcityCompletedFirstRun;
 
 @interface NSUserDefaults (EcityDefaults)
 

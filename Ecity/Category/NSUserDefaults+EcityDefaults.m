@@ -8,12 +8,12 @@
 
 #import "NSUserDefaults+EcityDefaults.h"
 
-NSString *kEcityIsFirstRun = @"KEcityIsFirstRun";
+NSString *kEcityCompletedFirstRun = @"kEcityCompletedFirstRun";
 
 @implementation NSUserDefaults (EcityDefaults)
     
 - (void)ecity_regeisterDefaults {
-    NSDictionary *defaultsInfo = @{ kEcityIsFirstRun : @(YES)
+    NSDictionary *defaultsInfo = @{ kEcityCompletedFirstRun : @(YES)
                                     
                                     };
     [self registerDefaults:defaultsInfo];

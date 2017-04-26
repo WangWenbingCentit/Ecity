@@ -24,7 +24,11 @@
 + (NSDictionary *)responseClassesByResourcePath {
     return @{@"**": [OVCResponse class]};
 }
-    
+ 
++ (NSDictionary *)modelClassesByResourcePath
+{
+    return @{};
+}
 - (instancetype)initWithBaseURL:(NSURL *)url sessionConfiguration:(NSURLSessionConfiguration *)configuration
     
 {
