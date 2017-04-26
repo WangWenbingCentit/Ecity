@@ -55,7 +55,6 @@ import UIKit
 class BaseNetWorkManager: OVCHTTPSessionManager<OVCResponse<AnyObject>> {
     // 单例模式
     // 类方法使用class +
-    
     class func  reachabilityManager() -> AFNetworkReachabilityManager {
        
         var sharedInstance: AFNetworkReachabilityManager? = nil

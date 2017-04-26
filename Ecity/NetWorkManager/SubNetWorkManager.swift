@@ -10,16 +10,17 @@ import UIKit
 
 class SubNetWorkManager: BaseNetWorkManager {
     
-    class func sharedInstanceSession() -> SubNetWorkManager
+   final class func sharedInstanceSession() -> SubNetWorkManager
         
     {
         var sharedInstance: SubNetWorkManager? = nil
         
         if sharedInstance == nil {
-            var sessionConfig = URLSessionConfiguration.default 
-            
+            let sessionConfig = URLSessionConfiguration.default 
+            sharedInstance = (BaseNetWorkManager.init(baseURL: nil, sessionConfiguration: sessionConfig) as! SubNetWorkManager)
+            sharedInstance?.reachabilityManager = SubNetWorkManager.reachabilityManager()
         }
-       
+      
         
         return sharedInstance!
         
