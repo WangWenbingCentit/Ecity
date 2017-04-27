@@ -75,13 +75,13 @@
 		B207E1091EB042AA00BE08E8 /* 未读@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B207E0CA1EB042AA00BE08E8 /* 未读@2x.png */; };
 		B278D6D11EB07BC000A5E95D /* Ecity_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278D6D01EB07BC000A5E95D /* Ecity_Protocol.swift */; };
 		B278D6D31EB07C6300A5E95D /* BaseNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278D6D21EB07C6300A5E95D /* BaseNetWorkManager.swift */; };
-		B278D6D51EB0956400A5E95D /* SubNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278D6D41EB0956400A5E95D /* SubNetWorkManager.swift */; };
+		B2D440321EB188C0003FD860 /* NSUserDefaults+EcityDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D440311EB188C0003FD860 /* NSUserDefaults+EcityDefaults.swift */; };
+		B2D440341EB19386003FD860 /* BaseMacroDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D440331EB19386003FD860 /* BaseMacroDefine.swift */; };
 		B2F535721EAEF08900FD3428 /* UIMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535711EAEF08900FD3428 /* UIMainViewController.swift */; };
 		B2F535741EAEF13100FD3428 /* UIProjectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535731EAEF13100FD3428 /* UIProjectListViewController.swift */; };
 		B2F535761EAEF17000FD3428 /* UIWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535751EAEF17000FD3428 /* UIWorkViewController.swift */; };
 		B2F535781EAEF18200FD3428 /* UIContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535771EAEF18200FD3428 /* UIContactViewController.swift */; };
 		B2F5357A1EAEF19100FD3428 /* UIMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535791EAEF19100FD3428 /* UIMineViewController.swift */; };
-		B2F535821EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */; };
 		B2F535851EAF15E200FD3428 /* FirstRunManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535841EAF15E200FD3428 /* FirstRunManager.swift */; };
 		B2F535961EAF2E4E00FD3428 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F535951EAF2E4E00FD3428 /* Project.swift */; };
 		B2FBD5E21EAEEE610048E683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBD5E11EAEEE610048E683 /* AppDelegate.swift */; };
@@ -180,19 +180,17 @@
 		B207E0CA1EB042AA00BE08E8 /* 未读@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未读@2x.png"; sourceTree = "<group>"; };
 		B278D6D01EB07BC000A5E95D /* Ecity_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ecity_Protocol.swift; sourceTree = "<group>"; };
 		B278D6D21EB07C6300A5E95D /* BaseNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetWorkManager.swift; sourceTree = "<group>"; };
-		B278D6D41EB0956400A5E95D /* SubNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubNetWorkManager.swift; sourceTree = "<group>"; };
+		B2D440311EB188C0003FD860 /* NSUserDefaults+EcityDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+EcityDefaults.swift"; sourceTree = "<group>"; };
+		B2D440331EB19386003FD860 /* BaseMacroDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMacroDefine.swift; sourceTree = "<group>"; };
 		B2F535711EAEF08900FD3428 /* UIMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMainViewController.swift; sourceTree = "<group>"; };
 		B2F535731EAEF13100FD3428 /* UIProjectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProjectListViewController.swift; sourceTree = "<group>"; };
 		B2F535751EAEF17000FD3428 /* UIWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWorkViewController.swift; sourceTree = "<group>"; };
 		B2F535771EAEF18200FD3428 /* UIContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIContactViewController.swift; sourceTree = "<group>"; };
 		B2F535791EAEF19100FD3428 /* UIMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMineViewController.swift; sourceTree = "<group>"; };
 		B2F5357F1EAEF90100FD3428 /* Ecity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ecity-Bridging-Header.h"; sourceTree = "<group>"; };
-		B2F535801EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+EcityDefaults.h"; sourceTree = "<group>"; };
-		B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+EcityDefaults.m"; sourceTree = "<group>"; };
 		B2F535841EAF15E200FD3428 /* FirstRunManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRunManager.swift; sourceTree = "<group>"; };
 		B2F5358F1EAF2A6B00FD3428 /* Ecity-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ecity-PrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
 		B2F535951EAF2E4E00FD3428 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
-		B2F535A31EAF455600FD3428 /* Ecity-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ecity-Protocol.h"; sourceTree = "<group>"; };
 		B2FBD5DE1EAEEE610048E683 /* Ecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FBD5E11EAEEE610048E683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2FBD5E61EAEEE610048E683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -323,8 +321,7 @@
 		B2F5357B1EAEF87900FD3428 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B2F535801EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.h */,
-				B2F535811EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m */,
+				B2D440311EB188C0003FD860 /* NSUserDefaults+EcityDefaults.swift */,
 				B2F5357F1EAEF90100FD3428 /* Ecity-Bridging-Header.h */,
 			);
 			path = Category;
@@ -364,7 +361,6 @@
 			isa = PBXGroup;
 			children = (
 				B278D6D21EB07C6300A5E95D /* BaseNetWorkManager.swift */,
-				B278D6D41EB0956400A5E95D /* SubNetWorkManager.swift */,
 			);
 			path = NetWorkManager;
 			sourceTree = "<group>";
@@ -372,8 +368,8 @@
 		B2F535A21EAF453600FD3428 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				B2F535A31EAF455600FD3428 /* Ecity-Protocol.h */,
 				B278D6D01EB07BC000A5E95D /* Ecity_Protocol.swift */,
+				B2D440331EB19386003FD860 /* BaseMacroDefine.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -697,15 +693,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B278D6D11EB07BC000A5E95D /* Ecity_Protocol.swift in Sources */,
-				B278D6D51EB0956400A5E95D /* SubNetWorkManager.swift in Sources */,
 				B2F535851EAF15E200FD3428 /* FirstRunManager.swift in Sources */,
 				B2F535721EAEF08900FD3428 /* UIMainViewController.swift in Sources */,
 				B2F535761EAEF17000FD3428 /* UIWorkViewController.swift in Sources */,
 				B207E0851EB02EF600BE08E8 /* UILoginViewController.swift in Sources */,
 				B2F535741EAEF13100FD3428 /* UIProjectListViewController.swift in Sources */,
-				B2F535821EAEF90200FD3428 /* NSUserDefaults+EcityDefaults.m in Sources */,
 				B2FBD5E21EAEEE610048E683 /* AppDelegate.swift in Sources */,
+				B2D440341EB19386003FD860 /* BaseMacroDefine.swift in Sources */,
 				B278D6D31EB07C6300A5E95D /* BaseNetWorkManager.swift in Sources */,
+				B2D440321EB188C0003FD860 /* NSUserDefaults+EcityDefaults.swift in Sources */,
 				B2F535781EAEF18200FD3428 /* UIContactViewController.swift in Sources */,
 				B207E0871EB02F1200BE08E8 /* UIRootViewController.swift in Sources */,
 				B2F5357A1EAEF19100FD3428 /* UIMineViewController.swift in Sources */,

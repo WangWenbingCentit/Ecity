@@ -17,7 +17,7 @@
 #import <PromiseKit/PromiseKit.h>
 #import <OvercoatPromiseKit/OvercoatPromiseKit.h>
 #import <Overcoat/Overcoat.h>
-#define ServerAndPort @"http://192.168.131.62:9500/ycxmglpt/"
+
 
 
 #endif /* Ecity_PrefixHeader_pch */

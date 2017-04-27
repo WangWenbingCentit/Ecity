@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let defaults = UserDefaults.standard
-        defaults.ecity_regeisterDefaults()
+       defaults.ecity_registerUserDefaults()
         rootViewController = UIStoryboard.init(name:"Main", bundle: nil).instantiateInitialViewController() as! UIRootViewController
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
@@ -30,14 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
            presentInterface()
 //        }
         window?.makeKeyAndVisible()
-//    
-//        let sub : SubNetWorkManager = SubNetWorkManager.sharedInstanceSession() as! SubNetWorkManager;
-//        
-//        sub.projectList().asPromise().then { (response) -> AnyPromise in
-//        
-//        }.catch { (error) in
-//            
-//        }
+//   
     
         return true
     }

@@ -10,6 +10,6 @@ import Foundation
 
 protocol Ecity_Protocol {
     
-   static func projectList() -> AnyPromise
+   func projectList() -> AnyPromise
     
 }
