@@ -9,7 +9,7 @@
 import Foundation
 
 protocol Ecity_Protocol {
-    
-   func projectList() -> AnyPromise
+    //协议中可以声明方法和属性
+    static func projectList(_ paramatar: String?) -> AnyPromise
     
 }

@@ -12,7 +12,7 @@ class UIRootViewController: UIViewController {
 
     
     @IBOutlet weak var tabViewContainer: UIView!
-    var mainTBC = UIMainViewController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

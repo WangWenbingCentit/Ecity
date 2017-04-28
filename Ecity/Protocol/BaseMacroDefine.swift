@@ -8,5 +8,7 @@
 
 let ProjectPath: String = "service/project/projectsearch/listprojectinfo"
 
-let ServerAndPort: String = "http://192.168.131.62:9500/ycxmglpt/"
+//let ServerAndPort: String = "http://192.168.131.62:9500/ycxmglpt/"
+
+let ServerAndPort: String = "http://106.15.39.61:8080/ycxmglpt/"
 

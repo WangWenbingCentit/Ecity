@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Project : NSObject {
+class Project : MTLModel,MTLJSONSerializing {
 
     var projectName : String?
     var startTime : String?
@@ -32,13 +32,28 @@ class Project : NSObject {
     var latitudePos : NSNumber?
     
 
-    init (dict : [String : Any]){
-        super.init()
-        setValuesForKeys(dict);
-    }
-    
-    override func setValue(_ value: Any?, forUndefinedKey key: String) {
+    static func jsonKeyPathsByPropertyKey() -> [AnyHashable : Any]! {
         
+        return ["projectName" : "projectName",
+                "startTime"   : "startTime",
+                "isSupervisedName" : "isSupervisedName",
+                "issueNameAll" : "issueNameAll",
+                "isDelayName"  : "isDelayName",
+                "isDelay"      : "isDelay",
+                "projectTypeName" : "projectTypeName",
+                "myAllTasks"      : "myAllTasks",
+                "myTasks"         : "myTasks",
+                "projectId"       : "projectId",
+                "projectType"     : "projectType",
+                "planEndTime"     : "planEndTime",
+                "planStartTime"   : "planStartTime",
+                "deleyDays"       : "deleyDays",
+                "projectPhase"    : "projectPhase",
+                "projectState"    : "projectState",
+                "keyWordsName"    : "keyWordsName",
+                "isSupervised"    : "isSupervised",
+                "longitudePos"    : "longitudePos",
+                "latitudePos"     : "latitudePos"]
     }
 
 }

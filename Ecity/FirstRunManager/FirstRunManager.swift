@@ -23,8 +23,9 @@ final class FirstRunManager: NSObject {
     public var firstRun : Bool! {
    
     // set --> get
-    set(isFirstRun){
-        UserDefaults.standard.set(isFirstRun, forKey: kEcityCompletedFirstRun)
+    set {
+        self.firstRun = newValue
+        UserDefaults.standard.set(newValue, forKey: kEcityCompletedFirstRun)
     }
     get {
         return UserDefaults.standard.bool(forKey: kEcityCompletedFirstRun)
@@ -32,8 +33,8 @@ final class FirstRunManager: NSObject {
     
         // set  get
 //        willSet {
-//
-            //UserDefaults.standard.set(firstRun, forKey: kEcityCompletedFirstRun)
+//           
+            //UserDefaults.standard.set(newValue, forKey: kEcityCompletedFirstRun)
 //        }
 //        
 //        didSet {
